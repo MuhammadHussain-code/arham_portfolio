@@ -13,9 +13,9 @@ const Hero = (props) => (
           My Personal Portfolio
         </SectionTitle>
         <SectionText>
-        The purpose of JavaScript Mastery is to help aspiring and established developers to take their development skills to the next level and build awesome apps.
+          I am open to work. I am a Senior level developer which can make things easy and build awesome looking and fuctional Web and Mobile Apps for fun.
         </SectionText>
-        <Button onClick={props.handleClick}>Learn More</Button>
+        <a style={{ textDecoration: "none", color: "inherit" }} href={"https://github.com/arham1999"}><Button>Learn More</Button></a>
       </LeftSection>
     </Section>
   </>
